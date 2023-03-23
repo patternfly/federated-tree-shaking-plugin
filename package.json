@@ -1,0 +1,28 @@
+{
+  "name": "federated-tree-shaking-plugin",
+  "version": "1.0.0",
+  "description": "Federated module treeshaking plugin for webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patternfly/federated-tree-shaking-plugin.git"
+  },
+  "keywords": [
+    "webpack",
+    "patternfly",
+    "federated",
+    "modules"
+  ],
+  "author": "PatternFly",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/patternfly/federated-tree-shaking-plugin/issues"
+  },
+  "homepage": "https://github.com/patternfly/federated-tree-shaking-plugin#readme",
+  "dependencies": {
+    "webpack": "^5.76.3"
+  }
+}
