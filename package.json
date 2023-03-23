@@ -2,7 +2,7 @@
   "name": "federated-tree-shaking-plugin",
   "version": "1.0.0",
   "description": "Federated module treeshaking plugin for webpack",
-  "main": "index.js",
+  "main": "federated-tree-shaking-plugin.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
