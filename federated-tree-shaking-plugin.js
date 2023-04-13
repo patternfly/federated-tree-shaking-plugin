@@ -5,6 +5,7 @@ class FederatedTreeShakingPlugin {
         compiler.hooks.normalModuleFactory.tap(NAME, factory => {
             factory.hooks.resolver.tap(NAME, resolve => {
                 return (dep, callback) => {
+                    debugger;
                     this.resolveId(dep, resolve, callback);
                 }
             });
